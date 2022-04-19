@@ -29,7 +29,7 @@ extension MainViewModel: ViewModelType {
         let stopTrigger: AnyPublisher<Void, Never>
     }
     
-    final class Output: ObservableObject {
+    final class Output {
         @Published var isLoading = false
         @Published var timerString = ""
     }
